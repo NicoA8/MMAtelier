@@ -1,0 +1,26 @@
+:root {
+  --bg-project: url("/src/img-projects/s-cover.jpg");
+}
+@media (min-width: 1024px) {
+  section.intro-box {
+    margin-block: 1rem 1.5rem;
+    align-items: center;
+  }
+  p.intro-info-text {
+    padding: 0rem;
+  }
+  section.intro-box::before {
+    transform: translate(0rem, 10rem);
+  }
+  h1.intro-title {
+    font-size: 2.3rem;
+    transform: translate(0rem, -10rem);
+  }
+  div.intro-info-box {
+    transform: translate(0rem, 1.2rem);
+  }
+  p.content-subtext.two,
+  p.content-subtext.three {
+    padding-block-start: 4rem;
+  }
+}
